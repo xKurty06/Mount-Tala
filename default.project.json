@@ -1,0 +1,12 @@
+{
+  "name": "Mount Tala",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "MyScript": {
+        "$path": "src/MyScript.server.lua"
+      }
+    }
+  }
+}
