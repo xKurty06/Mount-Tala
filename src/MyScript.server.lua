@@ -1,6 +1,3 @@
-
-
-
 game.Players.PlayerAdded:Connect(function(player)
     print("Welcome, " .. player.Name .. "!")
     local message = Instance.new("Message")
