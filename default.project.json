@@ -7,6 +7,18 @@
       "MyScript": {
         "$path": "src/MyScript.server.lua"
       }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$properties": {
+        "EnableMouseLockOption": true
+      },
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "ForceShiftLock": {
+          "$path": "StarterPlayer/StarterPlayerScripts/ForceShiftLock.lua"
+        }
+      }
     }
   }
 }
